@@ -72,7 +72,9 @@
   </JavaCodeStyleSettings>
   <JetCodeStyleSettings>
     <option name="PACKAGES_TO_USE_STAR_IMPORTS">
-      <value />
+    <value>
+      <package name="kotlinx.android.synthetic" withSubpackages="true" static="false" />
+    </value>
     </option>
   </JetCodeStyleSettings>
   <SqlCodeStyleSettings>
