@@ -4,6 +4,15 @@ Java Code Styles
 IntelliJ IDEA code style settings for Square's Java and Android projects.
 
 
+Purpose of the fork
+-------------------
+
+Kotlin has extension like data binding by default.
+To use this feature, we need to import too many classes for UI elemnt id in "kotlinx.android.synthetic" package.
+So I add this package to use star imports.
+It will not be confusing where the class from, while the UI element id has camel case.
+
+
 Installation
 ------------
 
